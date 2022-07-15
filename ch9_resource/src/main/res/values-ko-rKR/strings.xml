@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ch9_resource</string>
+    <string name="username">
+        김준서 (Junseo Kim)
+    </string>
+    <string name="intro_detail">
+        23, Soongsil Univ.
+    </string>
+    <string name="intro_more">
+        더 알아보기
+    </string>
+    <string name="intro_button">
+        설정
+    </string>
+    <string name="intro_delay">
+        나중에 하기
+    </string>
+</resources>

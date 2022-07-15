@@ -1,0 +1,35 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "AndroidLab"
+include ':app'
+include ':app:ch_11_jetpack'
+include ':ch11_jetpack'
+include ':practice'
+include ':ch12_material'
+include ':ch13_activity'
+include ':ch14_receiver'
+include ':ch15_service'
+include ':ch15_outer'
+include ':ch16_provider'
+include ':ch6_view'
+include ':practice0530'
+include ':ch17_database'
+include ':ch18_network'
+include ':ch19_map'
+include ':ch20_firebase'
+include ':ch7_layout'
+include ':ch8_event'
+include ':ch9_resource'
+include ':ch10_notification'
