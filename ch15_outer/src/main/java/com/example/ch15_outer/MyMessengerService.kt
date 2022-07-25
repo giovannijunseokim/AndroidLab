@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import android.media.MediaPlayer
 import android.os.*
+import android.util.Log
 
 class MyMessengerService : Service() {
 
@@ -22,7 +23,7 @@ class MyMessengerService : Service() {
         player.release()
     }
 
-    inner class  IncomingHandler(
+    inner class IncomingHandler(
         context: Context, private val applicationContext: Context = context.applicationContext
     ) : Handler(Looper.getMainLooper()) {
         override fun handleMessage(msg: Message) {
@@ -39,6 +40,7 @@ class MyMessengerService : Service() {
                             replyMsg.obj = replyBundle
                             replyMessenger.send(replyMsg)
                             player.start()
+                            Log.d("gio","music start....")
                         } catch (e: Exception) {
                             e.printStackTrace()
                         }
