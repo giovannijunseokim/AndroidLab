@@ -12,6 +12,7 @@
         android:text="Two Fragment!!"
         android:textSize="25dp"
         android:textStyle="bold"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:background="#409020"/>
 
 </FrameLayout>

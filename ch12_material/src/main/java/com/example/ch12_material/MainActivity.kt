@@ -3,6 +3,7 @@ package com.example.ch12_material
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -18,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     class MyFragmentPagerAdapter(activity: FragmentActivity): FragmentStateAdapter(activity){
         val fragments: List<Fragment>
         init {
-            fragments= listOf(OneFragment(), TwoFragment(), ThreeFragment())
+            fragments= listOf(OneFragment(), TwoFragment(), ThreeFragment(), FourFragment())
         }
         override fun getItemCount(): Int = fragments.size
 
@@ -41,11 +42,17 @@ class MainActivity : AppCompatActivity() {
         binding.viewpager.adapter = adapter
         TabLayoutMediator(binding.tabs, binding.viewpager){tab, position
         -> tab.text = "Tab${(position)+1}"}.attach()
+
+        binding.fab.setOnClickListener {
+            Toast.makeText(this, "FAB Touched...", Toast.LENGTH_LONG)
+                .show()
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
         return super.onCreateOptionsMenu(menu)
+
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
