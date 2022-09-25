@@ -12,13 +12,37 @@
         android:layout_height="match_parent"/>
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-        android:id="@+id/main_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
         app:icon="@android:drawable/ic_input_add"
-        android:text="Add Todo"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"/>
+        android:text="CAMERA"
+        android:layout_above="@id/webFab"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/cameraFab"/>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/webFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/addTodoFab"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="20dp"
+        android:text="WEB"
+        app:icon="@android:drawable/ic_input_add" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/addTodoFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="ADD TODO"
+        app:icon="@android:drawable/ic_input_add" />
+
 
 </RelativeLayout>

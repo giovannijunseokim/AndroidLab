@@ -10,12 +10,19 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/androidstudy20220821" />
+            <option value="$PROJECT_DIR$/androidstudy_outer" />
+            <option value="$PROJECT_DIR$/androidstudy_provider" />
+            <option value="$PROJECT_DIR$/androidstudy_receiver" />
+            <option value="$PROJECT_DIR$/androidstudy_service" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/app/ch_11_jetpack" />
             <option value="$PROJECT_DIR$/ch10_notification" />
             <option value="$PROJECT_DIR$/ch11_jetpack" />
             <option value="$PROJECT_DIR$/ch12_material" />
             <option value="$PROJECT_DIR$/ch13_activity" />
+            <option value="$PROJECT_DIR$/ch13_activitystudy" />
+            <option value="$PROJECT_DIR$/ch13study" />
             <option value="$PROJECT_DIR$/ch14_receiver" />
             <option value="$PROJECT_DIR$/ch15_outer" />
             <option value="$PROJECT_DIR$/ch15_service" />

@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="androidstudy20220821/src/main/res/layout/activity_add.xml" value="0.18478260869565216" />
+        <entry key="androidstudy20220821/src/main/res/layout/activity_main.xml" value="0.27040816326530615" />
+        <entry key="androidstudy20220821/src/main/res/layout/item_recyclerview.xml" value="0.3449554443359375" />
+        <entry key="androidstudy20220821/src/main/res/menu/menu_add.xml" value="0.1951019287109375" />
+        <entry key="androidstudy20220821/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.129" />
+        <entry key="androidstudy_outer/src/main/res/layout/activity_main.xml" value="0.2006340579710145" />
+        <entry key="androidstudy_provider/src/main/res/layout/activity_main.xml" value="0.2006340579710145" />
+        <entry key="androidstudy_provider/src/main/res/xml/file_paths.xml" value="0.2006340579710145" />
+        <entry key="androidstudy_receiver/src/main/res/layout/activity_main.xml" value="0.18478260869565216" />
+        <entry key="androidstudy_service/src/main/res/layout/activity_main.xml" value="0.2006340579710145" />
         <entry key="app/ch_11_jetpack/src/main/res/layout/activity_main.xml" value="0.14387031408308004" />
         <entry key="ch10_notification/src/main/res/layout/activity_main.xml" value="0.20244565217391305" />
         <entry key="ch11_jetpack/src/main/res/layout/activity_main.xml" value="0.21240942028985507" />
@@ -24,7 +34,13 @@
         <entry key="ch12_material/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1645" />
         <entry key="ch13_activity/src/main/res/layout/activity_add.xml" value="0.15520833333333334" />
         <entry key="ch13_activity/src/main/res/layout/activity_main.xml" value="0.15520833333333334" />
+        <entry key="ch13_activity/src/main/res/layout/item_recyclerview.xml" value="0.18478260869565216" />
         <entry key="ch13_activity/src/main/res/menu/menu_add.xml" value="0.15520833333333334" />
+        <entry key="ch13_activity/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.129" />
+        <entry key="ch13_activity/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.129" />
+        <entry key="ch13_activitystudy/src/main/res/layout/activity_main.xml" value="0.18478260869565216" />
+        <entry key="ch13study/src/main/res/layout/activity_add.xml" value="0.18478260869565216" />
+        <entry key="ch13study/src/main/res/layout/item_recyclerview.xml" value="0.18478260869565216" />
         <entry key="ch14_receiver/src/main/res/layout/activity_main.xml" value="0.21240942028985507" />
         <entry key="ch15_outer/src/main/res/layout/activity_main.xml" value="0.21240942028985507" />
         <entry key="ch15_service/src/main/res/layout/activity_main.xml" value="0.21240942028985507" />

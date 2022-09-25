@@ -7,6 +7,6 @@
         app:showAsAction="always"
         app:actionViewClass="androidx.appcompat.widget.SearchView"/>
 
-    <item android:title="setting"/>
-
+    <item
+        android:title="설정"/>
 </menu>

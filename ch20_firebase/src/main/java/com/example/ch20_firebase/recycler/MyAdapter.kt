@@ -33,7 +33,7 @@ class MyAdapter(val context: Context, val itemList: MutableList<ItemData>): Recy
 
         //스토리지 이미지 다운로드........................
         val imgRef= MyApplication.storage.reference.child("images/${data.docId}.jpg")
-        imgRef.getDownloadUrl().addOnCompleteListener{task ->
+        imgRef.getDownloadUrl().addOnCompleteListener{ task ->
             if(task.isSuccessful){
                 Glide.with(context).load(task.result).into(holder.binding.itemImageView)
             }
